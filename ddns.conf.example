@@ -3,7 +3,7 @@
 access_id=
 # Required: access key obtains from aliyun
 access_key=
-# Optional: not used now 
+# Optional: not used now
 interval=600
 # Optional: turn on debug mode or not
 debug=true
@@ -13,9 +13,5 @@ debug=true
 domain=
 # Required: subdomain name, like www, blog, bbs
 sub_domain=
-# Required: resolve type, 'A', 'MX'...
-type=
-# Optional: record id which get from DNS service provider
-id=
-# Optional: it can be IP address or alias to another hostname...
-value=
+# Required: resolve type, now it only supports 'A'
+type=A
